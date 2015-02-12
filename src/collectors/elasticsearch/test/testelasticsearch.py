@@ -88,6 +88,7 @@ class TestElasticSearchCollector(CollectorTestCase):
             'process.mem.resident': 5192126464,
             'process.mem.share': 11075584,
             'process.mem.virtual': 7109668864,
+            'process.open_file_descriptors': 2449,
 
             'disk.reads.count': 55996,
             'disk.reads.size': 1235387392,
